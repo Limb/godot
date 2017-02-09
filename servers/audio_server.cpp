@@ -1081,7 +1081,6 @@ AudioServer::AudioServer() {
 }
 
 AudioServer::~AudioServer() {
-
 	memdelete(audio_data_lock);
 }
 
